@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(18, 92, 10);
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(18, 92, 10);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container {
+  width: 90%;
+  max-width: 800px;
+  min-height: calc(100vh - 80px);
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+
+/*Élet*/
+.outerHP {
+  width: 400px;
+  margin: auto;
+  border: white 1px solid;
+  height: 30px;
+  position: relative;
+}
+
+.innerHP {
+  height: 30px;
+  width: 100%;
+  background-color: lightgreen;
+  position: absolute;
+}
+#num {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.csk{
+  margin-left: 65px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  width: 300px;
+  height: 200px;
+}
